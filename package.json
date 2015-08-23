@@ -1,8 +1,11 @@
 {
   "name": "mkdirp",
-  "description": "Recursively mkdir, like `mkdir -p`",
-  "version": "0.5.1",
-  "author": "James Halliday <mail@substack.net> (http://substack.net)",
+  "description": "Recursively mkdir, like `mkdir -p` - modified",
+  "version": "0.5.2",
+  "authors": [
+    "James Halliday <mail@substack.net> (http://substack.net)",
+    "David Benhaim github.com/davidbenhaim"
+    ],
   "main": "index.js",
   "keywords": [
     "mkdir",
@@ -10,7 +13,7 @@
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/substack/node-mkdirp.git"
+    "url": "https://github.com/davidbenhaim/node-mkdirp.git"
   },
   "scripts": {
     "test": "tap test/*.js"
